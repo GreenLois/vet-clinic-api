@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #333;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+button.danger {
+    background: #dc3545;
+}
+
+button.danger:hover {
+    background: #c82333;
+}
+
+button.info {
+    background: #17a2b8;
+}
+
+button.info:hover {
+    background: #138496;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+.actions {
+    white-space: nowrap;
+}
+
+.message {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.form-container {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 4px;
+}
